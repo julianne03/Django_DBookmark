@@ -1,5 +1,7 @@
 # DBookmark
-
+- 프로젝트 구현 순서
+  - models -> admin -> views -> templates -> urls
+---
 - 프로젝트 시작
     - django-admin startproject config .
         - config 라는 앱으로 현재 디렉토리에 만들기
@@ -10,9 +12,14 @@
 - bookmark 앱 시작
     - python manage.py startapp bookmark
     - add 'bookmark', in INSTALLED_APPS
+---
 - bookmark/models Bookmark
   - python manage.py makemigrations bookmark
   - python manage.py migrate
-  - \_\_str\__() 
+  - \_\_str\__()
+---
 - bookmark/admin Bookmark
   - add admin.site.register(Bookmark) in admin.py
+---
+- List Bookmark
+  - bookmark/views BookmarkListView
