@@ -13,3 +13,6 @@
 - bookmark/models Bookmark
   - python manage.py makemigrations bookmark
   - python manage.py migrate
+  - \_\_str\__() 
+- bookmark/admin Bookmark
+  - add admin.site.register(Bookmark) in admin.py
