@@ -49,6 +49,8 @@
   - bookmark/views BookmarkDetailView
   - bookmark/templates/bookmark bookmark_detail.html, bookmark_list.html
   - bookmark/urls bookmark:detail
-  
+---
+
 - Bookmark Update
   - bookmark/views BookmarkUpdateView
+  - bookmark/templates/bookmark_update.html, bookmark_list.html
