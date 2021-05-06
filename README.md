@@ -55,3 +55,4 @@
   - bookmark/views BookmarkUpdateView
   - bookmark/templates/bookmark_update.html, bookmark_list.html
   - bookmark/urls bookmark:update
+  - bookmark/models get_absolute_url() in Bookmark
