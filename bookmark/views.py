@@ -21,7 +21,7 @@ class BookmarkDetailView(DetailView):
 class BookmarkUpdateView(UpdateView) :
     model = Bookmark
     fields = ['name', 'url']  # = '__all__'
-    template_name_sufffix = "_update"  # 원래는 '_form' -> bookmark_update.html
+    template_name_suffix = "_update"  # 원래는 '_form' -> bookmark_update.html
     success_url = reverse_lazy('bookmark:list')
 
 class BookmarkDeleteView(DeleteView) :
