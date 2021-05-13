@@ -56,6 +56,8 @@
   - bookmark/templates/bookmark_update.html, bookmark_list.html
   - bookmark/urls bookmark:update
   - bookmark/models get_absolute_url() in Bookmark
+---
 
 - Bookmark Delete
   - bookmark/views BookmarkDeleteView
+  - bookmark/templates/bookmark bookmark_confirm_delete.html, bookmark_list.html
