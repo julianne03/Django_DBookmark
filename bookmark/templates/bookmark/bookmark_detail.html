@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bookmark Detail</title>
-</head>
-<body>
-{{ bookmark.name }}<br>
-<a href="{{ bookmark.url }}">{{ bookmark.url }}</a>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block title %}Bookmark Detail{% endblock %}
+
+{% block content %}
+    {{ bookmark.name }}
+    {{ bookmark.url }}
+{% endblock %}

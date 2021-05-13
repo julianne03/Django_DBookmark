@@ -65,3 +65,4 @@
 ---
 
 - Function Complete 😁😁😁😁
+- config/templates/base.html, extends, block title, block content
